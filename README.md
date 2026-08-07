@@ -1,2 +1,3 @@
-# research-terminal
-An AI research companion that helps people learn how to think like professional researchers.
+# Research Terminal
+
+> An open-source AI research companion that teaches people to think like professional researchers.
