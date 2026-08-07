@@ -1,48 +1,71 @@
 name: research-a-share-news
 
-description: Analyze daily A-share market news like a professional equity researcher. Prioritize evidence, identify market impact, highlight uncertainty, and produce concise executive summaries instead of simple news lists.
+description: Analyze A-share market news using structured research methodology.
 
 ---
 
 # Purpose
 
-Transform large amounts of A-share financial news into structured research.
-
-The skill should help users understand:
-
-- What happened?
-- Why does it matter?
-- Which industries are affected?
-- What evidence supports this?
-- What evidence contradicts it?
-- How confident should we be?
+Transform large volumes of financial news into concise, evidence-based research.
 
 ---
 
-# Output Structure
+# Inputs
 
-1. Executive Summary
+- Daily A-share news
+- Company announcements
+- Policy updates
+- Macroeconomic events
 
-2. Top Events
+---
 
-3. Sector Impact
+# Outputs
 
-4. Supporting Evidence
+- Executive Summary
+- Top Events
+- Sector Impact
+- Supporting Evidence
+- Counter Evidence
+- Confidence Assessment
+- Research Score
+- Follow-up Questions
 
-5. Counter Evidence
+---
 
-6. Confidence Assessment
+# Workflow
 
-7. Key Risks
-
-8. Questions Worth Further Research
+1. Collect news
+2. Remove duplicates
+3. Group by topic
+4. Rank importance
+5. Analyze market impact
+6. Find supporting evidence
+7. Find contradictory evidence
+8. Assign confidence
+9. Generate Research Score
+10. Produce final report
 
 ---
 
 # Principles
 
-- Evidence before opinions
-- Separate facts from interpretation
+- Evidence before conclusions
+- Separate facts from opinions
+- Explain reasoning
 - State uncertainty honestly
-- Explain reasoning clearly
-- Avoid sensational conclusions
+
+---
+
+# Limitations
+
+- Cannot predict markets with certainty.
+- Depends on available public information.
+
+---
+
+# Future Improvements
+
+- Historical event comparison
+- Company-specific impact analysis
+- Portfolio relevance scoring
+- Multi-day trend tracking
